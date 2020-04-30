@@ -1,0 +1,37 @@
+TestCases
+----------
+
+loadPuzzle
+
+• File with no lines in it
+• File with only in it
+• File with 1 line of data in it
+• File with many lines more than given number of lines
+• File with improper word slot constraints
+• load the data will all the horizontal words or vertical words
+• load the data will all the words that have more length that the slots size
+• load the data with less number of words than the slots pressent
+• load the data with same words and different slots
+• load the data by rearranging the choice of words
+
+solve
+
+• load the data such that the puzzle is able to be solve by passing grid which contains no intersection or crosswords.
+• load the data to check solve method is returns true.
+• Check puzzle is able to solve by passing only one word slot with length of one
+• Check puzzle by passsing 15 word slots and 15 different words and grid length of 15
+• Check puzzle with no intersections between the slots in the puzzle grid
+• Check puzzle is able if it there is no grids of any empty space in the puzzle grid
+• Check puzzle is able to solve by passing only one word slot with length of one
+• Check puzzle is able to return false if does not solve the puzzle
+
+print
+
+• load print writer with null
+• load print writer with system.out
+• Check puzzle if able to print the correct solution
+
+choices
+
+• Check puzzle is able to return correct number of choices
+• Check puzzle by changing the list of choices and returning different choices to solve
